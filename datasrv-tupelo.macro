@@ -1,0 +1,9 @@
+__DEPLOY_DIR__=/opt
+__APP_DIR__=zookeeper
+__CONF_DIR__=/opt/zookeeper/conf
+__CONF_DEST_FILE__=/opt/zookeeper/conf/zk.conf
+__CONF_DEFAULT_FILE__=zk.dev.conf
+__JAR_NAME__=zkrw.jar
+__PKGR_NAME__=BrianRogosky 
+__PKGR_EMAIL__<brogosky@federatedmedia.net>
+

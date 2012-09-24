@@ -1,0 +1,5 @@
+#!/bin/bash
+#. /opt/zookeeper/conf/zk.conf
+jarPath="$(find . -name "*dependencies.jar")"
+
+java -jar $jarPath 127.0.0.1:2181 "$1" "$2" "$3"

@@ -1,0 +1,375 @@
+2012-09-13 17:25:57,655 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,672 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) getNumChildren /DS-test/main  null
+2012-09-13 17:25:57,672 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@182da3d
+2012-09-13 17:25:57,673 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,674 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,682 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026a, negotiated timeout = 4000
+2012-09-13 17:25:57,685 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026a closed
+2012-09-13 17:25:57,685 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,685 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) qAdd /DS-test/main  null
+2012-09-13 17:25:57,685 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1a80a69
+2012-09-13 17:25:57,686 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,686 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,688 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026b, negotiated timeout = 4000
+2012-09-13 17:25:57,690 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026b closed
+2012-09-13 17:25:57,690 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,690 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) qPoll /DS-test/main  null
+2012-09-13 17:25:57,690 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1fa1bb6
+2012-09-13 17:25:57,691 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,691 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,692 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026c, negotiated timeout = 4000
+2012-09-13 17:25:57,695 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026c closed
+2012-09-13 17:25:57,695 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,696 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) set /DS-test/main  null
+2012-09-13 17:25:57,696 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@bdb503
+2012-09-13 17:25:57,696 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,697 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,698 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026d, negotiated timeout = 4000
+2012-09-13 17:25:57,700 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026d closed
+2012-09-13 17:25:57,700 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,700 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) delete /DS-test/main  null
+2012-09-13 17:25:57,700 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@166afb3
+2012-09-13 17:25:57,701 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,701 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,703 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026e, negotiated timeout = 4000
+2012-09-13 17:25:57,704 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026e closed
+2012-09-13 17:25:57,705 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,705 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=8, retry min delay in ms=2, retry max delay in ms=1000) exists /DS-test/main  null
+2012-09-13 17:25:57,705 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@adb1d4
+2012-09-13 17:25:57,706 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,706 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,707 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83026f, negotiated timeout = 4000
+2012-09-13 17:25:57,709 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83026f closed
+2012-09-13 17:25:57,709 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,711 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83025d closed
+2012-09-13 17:25:57,711 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,712 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:25:57,712 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@75e4fc
+2012-09-13 17:25:57,713 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,713 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,715 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830270, negotiated timeout = 4000
+2012-09-13 17:25:57,716 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=0, retry max delay in ms=5) exists /DS-test/main  
+2012-09-13 17:25:57,716 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@16de49c
+2012-09-13 17:25:57,716 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,717 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,718 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830271, negotiated timeout = 4000
+2012-09-13 17:25:57,720 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830271 closed
+2012-09-13 17:25:57,720 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,720 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=0, retry max delay in ms=5) create /DS-test/main new 
+2012-09-13 17:25:57,721 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@64ea66
+2012-09-13 17:25:57,721 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,722 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,724 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830272, negotiated timeout = 4000
+2012-09-13 17:25:57,727 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830272 closed
+2012-09-13 17:25:57,727 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,727 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=0, retry max delay in ms=5) get /DS-test/main  
+2012-09-13 17:25:57,727 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@15093f1
+2012-09-13 17:25:57,728 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,728 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,730 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830273, negotiated timeout = 4000
+2012-09-13 17:25:57,731 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830273 closed
+2012-09-13 17:25:57,731 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:57,732 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=10, retry max delay in ms=1010) get /DS-test/main/testTiming  
+2012-09-13 17:25:57,732 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1afae45
+2012-09-13 17:25:57,732 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:57,733 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:57,734 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830274, negotiated timeout = 4000
+2012-09-13 17:25:57,741 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830274 closed
+2012-09-13 17:25:57,741 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:58,019 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@7f4ec
+2012-09-13 17:25:58,021 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:58,022 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:58,024 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830275, negotiated timeout = 4000
+2012-09-13 17:25:58,027 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830275 closed
+2012-09-13 17:25:58,027 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:58,236 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@76fba0
+2012-09-13 17:25:58,261 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:58,265 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:58,267 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830276, negotiated timeout = 4000
+2012-09-13 17:25:58,269 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830276 closed
+2012-09-13 17:25:58,269 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:58,997 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1c80b01
+2012-09-13 17:25:58,998 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:58,999 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:59,002 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830277, negotiated timeout = 4000
+2012-09-13 17:25:59,011 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830277 closed
+2012-09-13 17:25:59,012 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:25:59,968 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@11671b2
+2012-09-13 17:25:59,973 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:25:59,974 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:25:59,976 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830278, negotiated timeout = 4000
+2012-09-13 17:25:59,989 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830278 closed
+2012-09-13 17:25:59,989 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:00,136 [main] () FATAL Zkrw - Quit after 5 failures. Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=10, retry max delay in ms=1010) get /DS-test/main/testTiming  
+2012-09-13 17:26:00,138 [main] () INFO  Zkrw - Exception #1
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest.testRetriesAndTimeout(zkrwTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-13 17:26:00,151 [main] () INFO  Zkrw - Exception #2
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest.testRetriesAndTimeout(zkrwTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-13 17:26:00,152 [main] () INFO  Zkrw - Exception #3
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest.testRetriesAndTimeout(zkrwTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-13 17:26:00,153 [main] () INFO  Zkrw - Exception #4
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest.testRetriesAndTimeout(zkrwTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-13 17:26:00,154 [main] () INFO  Zkrw - Exception #5
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest.testRetriesAndTimeout(zkrwTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:243)
+	at junit.framework.TestSuite.run(TestSuite.java:238)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2012-09-13 17:26:00,158 [Thread-1] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=5, retry min delay in ms=10, retry max delay in ms=1010) get /DS-test/main/testTiming  
+2012-09-13 17:26:00,158 [Thread-1] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1de17f4
+2012-09-13 17:26:00,177 [Thread-1-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:00,178 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:00,180 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830279, negotiated timeout = 4000
+2012-09-13 17:26:00,181 [Thread-1] () INFO  ZooKeeper - Session: 0x1396e5ecb830279 closed
+2012-09-13 17:26:00,181 [Thread-1-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:00,393 [Thread-1] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1cd0888
+2012-09-13 17:26:00,394 [Thread-1-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:00,395 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:00,397 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027a, negotiated timeout = 4000
+2012-09-13 17:26:00,400 [Thread-1] () INFO  ZooKeeper - Session: 0x1396e5ecb83027a closed
+2012-09-13 17:26:00,400 [Thread-1-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:00,739 [Thread-1] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@e95a56
+2012-09-13 17:26:00,741 [Thread-1-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:00,742 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:00,744 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027b, negotiated timeout = 4000
+2012-09-13 17:26:00,748 [Thread-1] () INFO  ZooKeeper - Session: 0x1396e5ecb83027b closed
+2012-09-13 17:26:00,748 [Thread-1-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,168 [main] () INFO  Zkrw - Processing Command: (hosts='127.0.0.1:2181', session timeout ms=3000, max retries=15, retry min delay in ms=0, retry max delay in ms=1000) create /DS-test/main/testTiming new 
+2012-09-13 17:26:01,168 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@961dff
+2012-09-13 17:26:01,170 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,171 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,173 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027c, negotiated timeout = 4000
+2012-09-13 17:26:01,176 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83027c closed
+2012-09-13 17:26:01,176 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,359 [Thread-1] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1d2fc36
+2012-09-13 17:26:01,361 [Thread-1-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,378 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,380 [Thread-1-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027d, negotiated timeout = 4000
+2012-09-13 17:26:01,383 [Thread-1] () INFO  ZooKeeper - Session: 0x1396e5ecb83027d closed
+2012-09-13 17:26:01,383 [Thread-1-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,383 [Thread-1] () INFO  Zkrw - Succeeded after 3 exceptions.
+2012-09-13 17:26:01,383 [Thread-1] () INFO  Zkrw - Exception #1
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest$TestRunThread.run(zkrwTest.java:169)
+2012-09-13 17:26:01,384 [Thread-1] () INFO  Zkrw - Exception #2
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest$TestRunThread.run(zkrwTest.java:169)
+2012-09-13 17:26:01,384 [Thread-1] () INFO  Zkrw - Exception #3
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /DS-test/main/testTiming
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:921)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:950)
+	at net.fmpub.zkrw.Zkrw.get(Zkrw.java:383)
+	at net.fmpub.zkrw.Zkrw.run(Zkrw.java:181)
+	at net.fmpub.zkrw.zkrwTest$TestRunThread.run(zkrwTest.java:169)
+2012-09-13 17:26:01,385 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830270 closed
+2012-09-13 17:26:01,386 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,387 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,389 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@e1899b
+2012-09-13 17:26:01,389 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,393 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,395 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027e, negotiated timeout = 4000
+2012-09-13 17:26:01,404 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83027e closed
+2012-09-13 17:26:01,404 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,406 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,406 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@125fefa
+2012-09-13 17:26:01,408 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,411 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,413 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb83027f, negotiated timeout = 4000
+2012-09-13 17:26:01,426 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb83027f closed
+2012-09-13 17:26:01,426 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,430 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,430 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@476128
+2012-09-13 17:26:01,430 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,432 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,434 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830280, negotiated timeout = 4000
+2012-09-13 17:26:01,448 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830280 closed
+2012-09-13 17:26:01,448 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,449 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,449 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@f7c31d
+2012-09-13 17:26:01,450 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,452 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,453 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830281, negotiated timeout = 4000
+2012-09-13 17:26:01,468 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830281 closed
+2012-09-13 17:26:01,468 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,470 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,470 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1a06e38
+2012-09-13 17:26:01,470 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,472 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,473 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830282, negotiated timeout = 4000
+2012-09-13 17:26:01,494 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830282 closed
+2012-09-13 17:26:01,496 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,496 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@618d26
+2012-09-13 17:26:01,496 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,499 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,500 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,502 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830283, negotiated timeout = 4000
+2012-09-13 17:26:01,526 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830283 closed
+2012-09-13 17:26:01,528 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,528 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@d3db51
+2012-09-13 17:26:01,529 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,530 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,531 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,533 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830284, negotiated timeout = 4000
+2012-09-13 17:26:01,539 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830284 closed
+2012-09-13 17:26:01,539 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,541 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,541 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@da6bf4
+2012-09-13 17:26:01,541 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,543 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,545 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830285, negotiated timeout = 4000
+2012-09-13 17:26:01,561 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830285 closed
+2012-09-13 17:26:01,561 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,563 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,563 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@11dba45
+2012-09-13 17:26:01,563 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,568 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,570 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830286, negotiated timeout = 4000
+2012-09-13 17:26:01,576 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830286 closed
+2012-09-13 17:26:01,576 [main-EventThread] () INFO  ClientCnxn - EventThread shut down
+2012-09-13 17:26:01,578 [main] () INFO  zkrwTest - setUp()...
+2012-09-13 17:26:01,578 [main] () INFO  ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=3000 watcher=net.fmpub.zkrw.Zkrw@1428ea
+2012-09-13 17:26:01,578 [main-SendThread()] () INFO  ClientCnxn - Opening socket connection to server /127.0.0.1:2181
+2012-09-13 17:26:01,582 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Socket connection established to localhost.localdomain/127.0.0.1:2181, initiating session
+2012-09-13 17:26:01,584 [main-SendThread(localhost.localdomain:2181)] () INFO  ClientCnxn - Session establishment complete on server localhost.localdomain/127.0.0.1:2181, sessionid = 0x1396e5ecb830287, negotiated timeout = 4000
+2012-09-13 17:26:01,596 [main] () INFO  ZooKeeper - Session: 0x1396e5ecb830287 closed
+2012-09-13 17:26:01,597 [main-EventThread] () INFO  ClientCnxn - EventThread shut down

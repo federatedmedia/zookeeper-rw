@@ -1,0 +1,38 @@
+#Install zookeeper package for your OS.  For Ubuntu 10.10, I used Applications manager.  I installed 3.1 (latest).
+
+#The server script is now here:
+/usr/lib/zookeeper/bin/zkServer.sh
+
+#Create a configuration file, as described here: 
+http://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html
+
+#or copy it from examples:
+
+sudo cp /etc/zookeeper/conf_example/zoo.cfg /etc/zookeeper/zoo.cfg
+
+
+#Then start zookeeper
+
+sudo /usr/lib/zookeeper/bin/zkServer.sh start
+
+#Build the zkrw.jar from source using Maven. 
+
+# Setup the directories for the zk script
+
+sudo mkdir -p /opt/zookeeper/conf
+sudo cp /media/truecrypt2/dev/zkrw/target/zkrw-1.0-SNAPSHOT-jar-with-dependencies.jar /opt/zookeeper/zkrw.jar
+
+# create a /opt/zookeeper/conf/zk.conf file for your local server or another server.  The qa conf is in the zkrw project in scripts/
+# ZK_SERVERS=localhost:2181
+
+# Put zk in your path and/or add the path to bashrc
+export PATH=$PATH:/media/truecrypt2/dev/zkrw/scripts/
+
+# try it out
+brogosky@ubuntu:/$ zk create "/test1key" blah
+brogosky@ubuntu:/$ zk get "/test1key"
+blah
+brogosky@ubuntu:/$ zk set "/test1key" newblah
+brogosky@ubuntu:/$ zk get "/test1key"
+newblah
+

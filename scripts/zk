@@ -1,0 +1,13 @@
+#!/bin/bash
+. /opt/zookeeper/conf/zk.conf
+
+# build argument list with quotes
+args=("$@")
+argsQu=""
+for ((i=0; i < $#; i++)); do
+	argsQu="${argsQu}\"${args[$i]}\" "
+done
+cmd="java -jar /opt/zookeeper/zkrw.jar \"$ZK_SERVERS\" \"$ZK_SESSTIMEOUT_MS\" \"$ZK_NUM_RETRIES\" \"$ZK_RETRY_DELAY_MIN_MS\" \"$ZK_RETRY_DELAY_MAX_MS\" ${argsQu}"
+eval $cmd
+
+#java -jar /opt/zookeeper/zkrw.jar "$ZK_SERVERS" "$ZK_SESSTIMEOUT_MS" "$ZK_NUM_RETRIES" "$ZK_RETRY_DELAY_MIN_MS" "$ZK_RETRY_DELAY_MAX_MS" "$1" "$2" "$3" "$4" "$5"
